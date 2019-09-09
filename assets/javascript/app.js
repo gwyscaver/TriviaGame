@@ -110,24 +110,6 @@ function tick() {
     }
 }
 
-    /*
-    for (let i = 0; i < questions.length; i++) {
-        $(".questions").append("<h1>" + questions[i].question + "</h1>")
-        for (let j = 0; j < questions[i].answers.length; j++) {
-            $(".questions").append("<input type='radio'>" + questions[i].answers[j] + "</input>")
-            
-        }
-    }
-    */
-
 let timer = 10;
 createQuestions ();
 let timerHandle = window.setInterval(tick, 1000);
-
-//timer
-
-//chosen answer checked against correct answer
-//one answer per question
-//correct answers
-//incorrect answers
-//unanswered questions

@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/spiderweb6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #cccccc;
+    max-width: 100%;
+    height: auto;
+}
+.questions {
+    color: orange
+}
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+  }
+  #timer{
+      color: orange
+  }
+  #score{
+    color: orange
+    font-size: 15px;
+}
