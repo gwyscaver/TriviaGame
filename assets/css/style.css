@@ -1,7 +1,13 @@
+.jumbotron {
+    background-color: transparent;
+    color: greenyellow;
+    
+}
+
 body {
     background-image: url("../images/spiderweb6.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-color: #cccccc;
     max-width: 100%;
     height: auto;
@@ -11,11 +17,14 @@ body {
 }
 input[type="radio"]{
     margin: 0 10px 0 10px;
+    
+    
   }
   #timer{
-      color: orange
+      color: greenyellow;
+      font-size: 50px;
   }
   #score{
-    color: orange
-    font-size: 15px;
+    color: greenyellow;
+   
 }
