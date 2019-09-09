@@ -1,20 +1,44 @@
 
 
 var questions = [{
-        question: "What is the busiest airport in the world?",
-        answers: ["London", "Beijing", "Atlanta", "New Dehli"]
+        question: "In what country was the first written account of children using the phrase “trick or treat” on Halloween ?",
+        answers: ["United States", "Mexico", "Canada", "Denmark"]
     },
     {
-        question: "How long is the longest flight?",
-        answers: ["19 hours", "18 hours", "17 hours", "16 hours"]
+        question: "In what decade did trick-or-treating as we know it today start gaining popularity in America?",
+        answers: ["1920s", "1930s", "1940s", "1950s"]
     },
     {
-        question: "What is the largest plane by seat number?",
-        answers: ["A380", "A350", "A330", "B747"]
+        question: "What were the original jack o’ lanterns made from?",
+        answers: ["Turnips", "Pumpkins", "Potatoes", "Squash"]
+    },
+    {
+        question: "In what country did carving jack o’ lanterns originate?",
+        answers: ["Canada", "France", "United States", "Ireland"]
+    },
+    {
+        question: "In what year will the next full moon occur during Halloween?",
+        answers: ["2019", "2020", "2021", "2022"]
+    },
+    {
+        question: "In the USA how many pieces of candy are most commonly handed out to trick-or-treaters?",
+        answers: ["1 piece", "2 pieces", "3 pieces", "4 pieces"]
+    },
+    {
+        question: "In what American state is it illegal to dress up like a priest or a nun?",
+        answers: ["Florida", "Mississippi", "Georgia", "Alabama"]
+    },
+    {
+        question: "Halloween is generally considered to have evolved from what ancient festival?",
+        answers: ["Samhain", "Beltane", "Ostara", "Lammas" ]
+    },
+    {
+        question: "If you want to keep spirits out of your home on Halloween, what should you sprinkle on your doorstep?",
+        answers: ["Holy Water", "Sage", "Salt", "Garlic"]
     },
 ]
 
-var corrAnswers = ["London", "19 hours", "A380"]
+var corrAnswers = ["Canada", "1930s", "Turnips", "Ireland", "2020", "2 pieces", "Alabama", "Samhain"]
 
 // make radio buttons out of an answer list, be sure to give each button a value
 function makeRadioButtons(answerList, questionID) {
